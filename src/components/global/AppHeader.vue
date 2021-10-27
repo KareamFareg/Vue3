@@ -51,7 +51,6 @@
                        signOut(auth);
                 this.$store.commit("setIsLoggedIn",false);
                 this.$store.commit("setAuthUser",{});
-                next("/home");
 
             },
             openLogin(){
