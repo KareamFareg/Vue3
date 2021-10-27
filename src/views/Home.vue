@@ -7,7 +7,7 @@
       <div class="">
         <div class="flex justify-around mb-4">
           <a
-                  href="https://github.com/bitfumes/vue3-for-beginners"
+                  href="https://github.com/KareamFareg/Vue3"
                   target="_blank"
           >Github Source Code</a
           >
