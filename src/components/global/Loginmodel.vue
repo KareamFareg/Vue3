@@ -64,14 +64,12 @@
         },
         data() {
             return {
-                email: "user1@gmail.com",
-                password: "123456",
+                email: "",
+                password: "",
                 isLoading:false,
             };
         },
-        // mounted() {
-        //     this.$refs.emailRef.focus();
-        // },
+
         methods: {
             login() {
                 signInWithEmailAndPassword (auth, this.email, this.password)
